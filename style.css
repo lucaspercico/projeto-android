@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+    font-family: android;
+    src: url('fontes/idroid.otf') format('opentype'); 
+    
+}
+body{
+    background-color: rgb(132 225 173);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: 'Bebas, Neue', cursive;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(47, 207, 119), rgb(13, 126, 56));
+    padding-top: 1px;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 3px rgba(2, 2, 2, 0.795);
+}
+.font-family {
+    font-family: android;
+    color: rgb(8, 90, 8);
+}
+.font-familycolor {
+    font-family: android;
+    color: rgb(8, 90, 8);
+    background-image: linear-gradient(to right, rgb(102, 194, 102),rgba(255, 255, 255, 0.164));
+    padding: 5px;
+}
+nav{
+    text-align: left;
+    background-color: rgb(13, 126, 56);
+}
+a {
+    display: inline-block;
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 10px;
+
+}
+
+a:hover {
+    background-color: #1a5c3849;
+    transition: background-color 0.3s ease;
+
+}
+#video{
+    background-color: #1a5c38;
+    margin: 20px auto;
+    padding: 20px 50px;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main {
+    background-color: white;
+    padding: 20px 20px;
+    max-width: 900px;
+    min-width: 300px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight:550
+}
+main > .conteudo{
+    padding: 20px;
+}
+
+.organizar {
+    text-align: center;
+}
+
+#video iframe {
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 16/9;
+    border: none;
+}
+footer {
+    background-color: #1a5c38;
+    text-align: center;
+    color: white;
+    margin-top: 16px;
+    padding: 10px;
+}
+#version {
+    padding: 1px 20px;
+    background-color: rgb(197 235 214);
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#version > h2 {
+    background-color: rgb(47 168 102);
+    color: white;
+    padding: 10px;
+    margin: -12px -20px;
+    border-radius: 10px;
+}
+#Lista-colunas {
+    column-count: 2;
+    list-style-type: '\2714\0020\0020';
+    list-style-position: inside;
+}
+#formato {
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+
+
